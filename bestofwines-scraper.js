@@ -112,6 +112,7 @@ async function scrollToBottom(page) {
       document.scrollingElement.scrollBy(0, y);
     }, distance);
     await page.waitForTimeout(delay);
+    log("done scrolling");
   }
 }
 
