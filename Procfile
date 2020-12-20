@@ -1,0 +1,1 @@
+worker:  node bestofwines-scraper.js
